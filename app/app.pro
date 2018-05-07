@@ -54,7 +54,7 @@ HEADERS += \
     text/text.h \
     common.h
 
-QMAKE_CFLAGS += -Wall -Wextra
+QMAKE_CFLAGS += -Wall -Wextra -Werror
 
 # gcov
 QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
