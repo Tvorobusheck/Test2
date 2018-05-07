@@ -16,7 +16,7 @@
 
 
 //проверяет, является ли символ пробельным разделителем
-inline bool is_sep(char c);
+bool is_sep(char c);
 
 //по возможности перемещаем курсор в конец
 //предыдущего слова
@@ -58,7 +58,7 @@ void mpweb(text txt)
     return;
 }
 
-inline bool is_sep(char c)
+bool is_sep(char c)
 {
     if (c == ' ' || c == '\n' || c == '\t')
 	return true;
