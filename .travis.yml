@@ -6,12 +6,12 @@ before_install:
   - pip install --user cpp-coveralls
 
 script:
-  - cd ./gtest-master/ && qmake
-  - cd ./gtest-master/ && make
-  - cd ./gtest-master/ && ./tests/tests
+  - qmake
+  - make
+  - ./tests/tests
 
 after_success:
-  - cd ./gtest-master/ && coveralls --root . -E ".*external.*" -E ".*tests.*"
+  - coveralls --root . -E ".*external.*" -E ".*tests.*"
 
 notifications:
 email: false
