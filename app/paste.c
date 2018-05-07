@@ -51,7 +51,7 @@ void paste(text txt,int num, char*t)
 
     strncpy(nd->contents, contents, MAXLINE);
     nd->contents[strlen(contents)]='\n';
-    nd->contents[MAXLINE+1] = '\0';
+    //nd->contents[MAXLINE] = '\0';
     nd->previous = NULL;
     nd->next = NULL;   
     
