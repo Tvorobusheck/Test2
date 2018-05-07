@@ -1,0 +1,12 @@
+../../gtest-master/tests/fibonachi_test.h:178: Failure
+Failed
+[  FAILED  ] revTest.num2 (4 ms)
+[----------] 3 tests from revTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 2 test cases ran. (185 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] revTest.num2
+
+ 1 FAILED TEST
