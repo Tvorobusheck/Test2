@@ -30,8 +30,8 @@ void process_even_odd(text txt, void (*process)(int index, char *contents)) {
     int index = 0;
 
     /* К каждой строке текста применяем обработчик */
-    char* str1;
-    char* str2;
+    char* str1 = "";
+    char* str2 = "";
 	while(current){
 		if(index % 2 == 0){
 			str2 = current -> contents;
